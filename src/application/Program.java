@@ -64,7 +64,7 @@ public class Program {
 	
 		
 		System.out.println("Nome: " + trabalhador.getNome());
-		System.out.println("Departamento: " + trabalhador.getDepartamento());
+		System.out.println("Departamento: " + trabalhador.getDepartamento().getNome());
 		System.out.printf("Renda de %d/%d: R$ %.2f", mes, ano, trabalhador.renda(ano, mes));
 		
 		
