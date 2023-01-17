@@ -74,9 +74,6 @@ public class Trabalhador {
 			
 			int c_ano = cal.get(Calendar.YEAR);
 			int c_mes = 1 + cal.get(Calendar.MONTH);
-			
-			System.out.println("Ano: " + c_ano + ", Mês: " + c_mes + ", A: " + ano + ", M: " + mes);
-		
 		
 			if (c_ano == ano && c_mes == mes) {
 				soma += c.valorTotal();
